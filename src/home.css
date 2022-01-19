@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:lightgreen;   
+}
+.buttons{
+    padding-left: 8px;
+}
+.buttons .btn{
+    width: 80px;
+    height: 50px;
+    font-size: small;
+}
+.container-fluid .navbar-brand{
+    color: white;
+    font-size: 30px;
+    list-style: none;
+}
+.col .card{
+border-radius: 20px;
+border: 3px solid red;
+background-color: gray;
+}
+.col .card:hover{
+   
+    box-shadow: 5px 10px 20px 1px black !important;
+}
+.col{
+    width: 500px;
+    height: 500px;
+    text-decoration: none;
+}
+.card img{
+    border-radius: 20px 50px;
+    padding: 3px;
+}
+.card-body{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+
+}
+.card-title{
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+.card-body a{
+    text-decoration: none;
+    border: 2px solid darkgray;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 3px;
+    background-color: darkblue;
+}

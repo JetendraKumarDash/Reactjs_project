@@ -1,0 +1,20 @@
+{
+  "players": [
+    {
+      "playername": "Suresh Raina",
+      "team": "CSK",
+      "description": "Batsman",
+      "isPlaying": "Playing",
+      "price": "1 Cr",
+      "id": 1
+    },
+    {
+      "playername": "Ravindra Jadeja",
+      "team": "CSK",
+      "description": "All-rounder",
+      "isPlaying": "Playing",
+      "price": "16 Cr",
+      "id": 2
+    }
+  ]
+}

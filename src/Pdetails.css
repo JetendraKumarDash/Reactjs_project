@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.col-md-4{
+    width: 500px;
+    height: 300px;
+    border: 2px solid yellow;
+    background-color: yellowgreen;
+}
+.col-md-4 img{
+    margin-top: 3px;
+    width: 450px;
+    height: 290px;
+    border: 5px double white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.card-body1{
+    background-color: black;
+    height: 300px;
+    padding-left: 10px;
+}
+.card-body1 .card-title{
+    text-align: center;
+}
+.card-body1 label{
+    color:cyan;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+}
+.card-body1 span{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
