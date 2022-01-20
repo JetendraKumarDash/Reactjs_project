@@ -2,6 +2,7 @@
   "players": [
     {
       "playername": "Suresh Raina",
+      "playerimage": "./images/rainaicon.jpg",
       "team": "CSK",
       "description": "Batsman",
       "isPlaying": "Playing",
@@ -10,11 +11,21 @@
     },
     {
       "playername": "Ravindra Jadeja",
+      "playerimage": "./images/jadejaicon.jpg",
       "team": "CSK",
       "description": "All-rounder",
       "isPlaying": "Playing",
-      "price": "16 Cr",
+      "price": "3 Cr",
       "id": 2
+    },
+    {
+      "playername": "Deepak Chahar",
+      "playerimage": "./images/chaharicon.jpg",
+      "team": "CSK",
+      "description": "Top Bowler",
+      "isPlaying": "Playing",
+      "price": "2 Cr",
+      "id": 3
     }
   ]
 }

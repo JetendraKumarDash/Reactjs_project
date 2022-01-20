@@ -1,4 +1,3 @@
-import axios from "axios";
 import React from "react";
 import { useState, useEffect } from "react";
 import './Pdetails.css';
@@ -8,13 +7,12 @@ const Pdetails = () => {
         loadUsers();
     }, []);
     const loadUsers = async () => {
-        const result = await axios.get("http://localhost:3003/players", player);
-        setPlayer(result.data.reverse());
+        const result = await fetch("http://localhost:3003/players");
+        setPlayer(await result.json());
     };
     return (
         <>
             <div className="card mb-3">
-
                 <div className="row g-0">
                     <div className="col-md-4">
                         <img src="./images/rainaicon.jpg" className="raina" alt="..." />
@@ -31,11 +29,8 @@ const Pdetails = () => {
                                 <label className="price">PRICE : </label> <span>{play.price} </span>
                             </div>
                         ))}
-
                     </div>
-
                 </div>
-
             </div>
         </>
     );
